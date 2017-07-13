@@ -1,0 +1,148 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+	padding-bottom: 0px;
+	margin-bottom: 60px;
+	/*background: linear-gradient(to left, #6441A5 , #2a0845);
+	color: #000;*/
+	font-family: 'Ruda', cursive;
+}
+
+.backnd {
+  background: linear-gradient(to left, #6441A5 , #2a0845);
+  color: #000;
+  padding-bottom: 30px;
+  /*padding-bottom: 120px;*/
+}
+
+.jumbotron {
+  margin-top: 125px;
+  font-family: 'Arima Madurai', cursive;
+}
+
+.jumbotron h1 {
+  font-size: 47px;
+}
+
+.table-responsive {
+	margin-top: 10%;
+}
+
+/*.colr {
+	margin-top: 20%;
+	background-color: #fff;
+}
+*/
+table {
+	font-family: 'Ruda', sans-serif;
+/*	font-weight: bold;
+*/	font-size: 20px;
+}
+
+.active {
+	font-weight: bold;
+}
+
+.btn {
+	font-size: 20px;
+	margin: 8px 0px 8px 0px;
+}
+
+/*table tbody {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 20px;
+}*/
+
+table{
+  margin-top: 35px;
+}
+
+thead {
+  font-size: 21px;
+}
+
+tbody {
+  font-size: 20px;
+}
+
+.table>thead:first-child>tr:first-child>th {
+  padding: 14px 20px 14px 20px;
+}
+
+.table>tbody>tr>td {
+  padding: 14px 20px 8px 20px;
+}
+
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>.active>a {
+  color: #000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Arima Madurai', cursive;
+  font-weight: bold;
+}
+
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 19px;
+}
+
+.navbar-default .navbar-brand {
+  font-size: 25px;
+  padding-bottom: 35px;
+}
+
+footer {
+  background-color: #e2e7ea;
+  padding: 15px 0px 5px 0px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 18px;
+  font-family: 'Arima Madurai', cursive;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 27px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }

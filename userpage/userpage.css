@@ -1,0 +1,178 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+	padding-bottom: 0px;
+	margin-bottom: 60px;
+	/*background: linear-gradient(to left, #6441A5 , #2a0845);
+	color: #000;*/
+	font-family: 'Ruda', cursive;
+}
+
+.backnd {
+  background: linear-gradient(to left, #6441A5 , #2a0845);
+  color: #000;
+  padding-bottom: 30px;
+}
+
+.jumbotron {
+  margin-top: 125px;
+  font-family: 'Arima Madurai', cursive;
+}
+
+.jumbotron h1 {
+  font-size: 47px;
+}
+
+.text-muted, h4 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+table{
+  margin-top: 35px;
+}
+
+thead {
+  font-size: 23px;
+}
+
+tbody {
+  font-size: 20px;
+}
+
+.table>thead:first-child>tr:first-child>th {
+  padding: 14px 20px 14px 20px;
+}
+
+.table>tbody>tr>td {
+  padding: 14px 20px 8px 20px;
+}
+
+.btn-lg {
+  font-size: 25px;
+  margin-top: 30px;
+  float: right;
+}
+
+.featurette-divider {
+  margin: 50px 0; /* Space out the Bootstrap <hr> more */
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.13);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+input[type='radio'] {
+  transform: scale(1.7);
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>.active>a {
+  color: #000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Arima Madurai', cursive;
+  font-weight: bold;
+}
+
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 19px;
+}
+
+.navbar-default .navbar-brand {
+  font-size: 25px;
+  padding-bottom: 35px;
+}
+
+footer {
+  background-color: #e2e7ea;
+  padding: 15px 0px 5px 0px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 18px;
+  font-family: 'Arima Madurai', cursive;
+}
+
+
+/*
+ * Placeholder dashboard ideas
+ */
+
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+}
+.placeholder {
+  margin-bottom: 20px;
+}
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 27px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .form-inline {
+    width: 100%;
+  }
+
+.form-inline .form-control {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+}
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
