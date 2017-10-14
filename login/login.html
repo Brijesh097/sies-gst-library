@@ -1,48 +1,56 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Login | SIES GST Library</title>
 
 	<!-- Bootstrap core CSS -->
 	<link href="../css/bootstrap.min.css" rel="stylesheet">
-	
+
 	<link href="https://fonts.googleapis.com/css?family=Acme|Arima+Madurai|Expletus+Sans|Ruda:400,700" rel="stylesheet">
 
 	<!-- Font Awesome CDN -->
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<!-- custom.css -->
 	<link rel="stylesheet" type="text/css" href="login.css">
 </head>
+
 <body>
 
 	<div class="navbar-wrapper">
-      <div class="container">
-        <nav class="navbar navbar-default navbar-static-top">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">SIES GST Library</a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-              <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href=""><span><i class="fa fa-sign-in" aria-hidden="true"></i></span> Login Page</a></li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </div>
-    </div>
+		<div class="container">
+			<nav class="navbar navbar-default navbar-static-top">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+						 aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">SIES GST Library</a>
+					</div>
+					<div id="navbar" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="active">
+								<a href="">
+									<span>
+										<i class="fa fa-sign-in" aria-hidden="true"></i>
+									</span> Login Page</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</div>
 
 	<div class="container">
 		<div class="row">
-		    <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+			<div id="formContainer" class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
 				<form role="form">
 					<fieldset>
 						<!-- <hr class="colorgraph"> -->
@@ -51,16 +59,22 @@
 						</div>
 						<hr class="colorgraph">
 						<div class="form-bottom">
-							<label><h4><strong>STUDENT ID:</strong> (required)</h4></label>
+							<label>
+								<h4>
+									<strong>STUDENT ID:</strong> (required)</h4>
+							</label>
 							<div class="form-group">
-			                    <input type="text" name="id" class="form-control input-lg" placeholder="eg: 115A1082" required="true">
+								<input type="text" name="id" class="form-control input-lg" placeholder="eg: 115A1082" required="true">
 							</div>
-							
-							<label><h4><strong>PASSWORD:</strong> (required)</h4></label>
-							<div class="form-group">						
-			                    <input type="password" name="password" class="form-control input-lg" placeholder="eg: siesgst@123" required="true">
+
+							<label>
+								<h4>
+									<strong>PASSWORD:</strong> (required)</h4>
+							</label>
+							<div class="form-group">
+								<input type="password" name="password" class="form-control input-lg" placeholder="eg: siesgst@123" required="true">
 							</div>
-							
+
 							<!-- <span class="button-checkbox">
 								<button type="button" class="btn btn-primary">Forgot Password?</button>
 							</span> -->
@@ -79,34 +93,41 @@
 							<button type="button" class="btn btn-primary pull-right">Forgot Password?</button>
 						</span> -->
 					</fieldset>
-						<hr class="colorgraph">
-						</form>
-						<div class="form-outside">
-								<h3 class="text-center">...or Sign Up:</h3>
-								<div class="row" style="padding-bottom: 40px;">
-									<div class="col-xs-12 text-center">
-				                        <a href="../signup/signup.html"><input type="submit" class="btn btn-lg btn-primary" value="Sign Up Now!"></a>
-									</div>
-								</div>
+					<hr class="colorgraph">
+				</form>
+				<div class="form-outside">
+					<center>
+						<h3>...or Sign Up:</h3>
+						<div class="row">
+							<div class="col-xs-12">
+								<a href="../signup/signup.html">
+									<input type="submit" class="btn btn-lg btn-primary" value="Sign Up Now!">
+								</a>
+							</div>
 						</div>
-				
+					</center>
+				</div>
+
 			</div>
 		</div>
 	</div>
 
-	 <!-- FOOTER -->
-      <footer>
-        <div class="container">
-        <strong><center>
-          <p class="text-muted">&copy; SIES Graduate School Of Technology. All Rights Reserved | Contact Us: 123-456-789</p>
-       	</center></strong>
-        </div>
-      </footer>
+	<!-- FOOTER -->
+	<footer>
+		<div class="container">
+			<strong>
+				<center>
+					<p class="text-muted">&copy; SIES Graduate School Of Technology. All Rights Reserved | Contact Us: 123-456-789</p>
+				</center>
+			</strong>
+		</div>
+	</footer>
 
-         <!-- Bootstrap core JavaScript
+	<!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
 </body>
+
 </html>
